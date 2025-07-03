@@ -40,7 +40,8 @@
           </tr>
         </thead>
         <tbody>
-          {% for label in ['Apple', 'Chilli', 'Lemon', 'Tomato'] %}
+          {% for label in ['bread_coconut', 'bread_roll', 'chiffon', 'cookie', 'croissant', 'croissant_chocolate',
+          'donut', 'mochi', 'mooncake', 'muffin', 'sandwich', 'tart_egg'] %}
           <tr>
             <td><strong>{{ label }}</strong></td>
             <td id="count_{{ label }}">{{ label_counts[label] if label in label_counts else 0 }}</td>
